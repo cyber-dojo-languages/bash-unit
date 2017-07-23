@@ -1,0 +1,15 @@
+
+{
+  "visible_filenames": [
+     "test_hiker.sh",
+     "help.txt",
+     "hiker.sh",
+     "cyber-dojo.sh"
+  ],
+
+  "filename_extension" : ".sh",
+
+  "display_name": "Bash, bash_unit",
+
+  "image_name": "cyberdojofoundation/bash_unit"
+}
