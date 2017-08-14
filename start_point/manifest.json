@@ -1,5 +1,7 @@
 
 {
+  "display_name": "Bash, bash_unit",
+
   "visible_filenames": [
      "test_hiker.sh",
      "help.txt",
@@ -7,9 +9,9 @@
      "cyber-dojo.sh"
   ],
 
+  "image_name": "cyberdojofoundation/bash_unit",
+
   "filename_extension" : ".sh",
 
-  "display_name": "Bash, bash_unit",
-
-  "image_name": "cyberdojofoundation/bash_unit"
+  "runner_choice": "stateless"
 }

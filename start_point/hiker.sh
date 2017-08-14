@@ -2,5 +2,5 @@
 
 function answer()
 {
-  echo $[6 * 9]
+  echo $((6 * 9))
 }

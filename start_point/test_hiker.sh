@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./hiker.sh
+source ./hiker.sh
 
 function test_life_the_universe_and_everything()
 {
