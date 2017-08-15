@@ -1,0 +1,20 @@
+
+bash_unit help is online at
+https://github.com/pgrange/bash_unit
+
+Summary
+-------
+test functions must start with test.
+
+assert_equals <expected> <actual> [message]
+assert_not_equals <unexpected> <actual> [message]
+assert_status_code <expected_status_code> <assertion> [message]
+assert_fail <assertion> [message]
+assert <assertion> [message]
+fail [message]
+
+
+setup
+  called once before each test is run
+teardown
+  called once after each test is run
