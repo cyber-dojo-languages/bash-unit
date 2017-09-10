@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/bash:4.3.42
+FROM  cyberdojofoundation/bash:4.3.48
 LABEL maintainer=jon@jaggersoft.com
 
 ADD bash_unit /usr/bin/
