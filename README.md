@@ -1,4 +1,3 @@
-# Bash, unit
 
 [![CircleCI](https://circleci.com/gh/cyber-dojo-languages/bash-unit.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/bash-unit)
 
