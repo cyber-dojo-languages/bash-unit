@@ -1,15 +1,14 @@
 
 {
-  "display_name": "Bash, bash_unit",
-
   "image_name": "cyberdojofoundation/bash_unit",
-
+  "display_name": "Bash, bash_unit",
   "visible_filenames": [
      "test_hiker.sh",
      "unit_help.txt",
      "hiker.sh",
      "cyber-dojo.sh"
   ],
-
-  "filename_extension": ".sh"
+  "filename_extension": [ ".sh" ],
+  "max_seconds": 10,
+  "tab_size": 4
 }
