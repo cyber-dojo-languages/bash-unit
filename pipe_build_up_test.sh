@@ -25,4 +25,4 @@ process_cdl_image_src_dir()
   fi
 }
 
-"$(process_cdl_image_src_dir)" "${MY_DIR}"
+"$(process_cdl_image_src_dir)" "${1:-${MY_DIR}}"
