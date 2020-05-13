@@ -1,8 +1,8 @@
-
 {
   "image_name": "cyberdojofoundation/bash_unit",
   "display_name": "Bash, bash_unit",
-  "visible_filenames": [
+  "visible_filenames":
+  [
      "test_hiker.sh",
      "unit_help.txt",
      "hiker.sh",
