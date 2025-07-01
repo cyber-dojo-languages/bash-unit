@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages//bash:58c4651
+FROM ghcr.io/cyber-dojo-languages/bash:latest
 LABEL maintainer=jon@jaggersoft.com
 
 ADD bash_unit /usr/bin/
