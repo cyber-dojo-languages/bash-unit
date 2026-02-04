@@ -1,6 +1,9 @@
-FROM ghcr.io/cyber-dojo-languages/bash:5043da0
+FROM ghcr.io/cyber-dojo-languages/bash:9a88d8f
 LABEL maintainer=jon@jaggersoft.com
 
-ADD bash_unit /usr/bin/
+RUN apk add curl \
+ && curl -s https://raw.githubusercontent.com/bash-unit/bash_unit/master/install.sh | bash \
+ && apk del curl \
+ && mv bash_unit /usr/bin/
 
 COPY red_amber_green.rb /usr/local/bin
