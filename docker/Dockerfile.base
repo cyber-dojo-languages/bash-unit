@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/bash:9a88d8f
+FROM ghcr.io/cyber-dojo-languages/bash:869fdc6
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apk add curl \
