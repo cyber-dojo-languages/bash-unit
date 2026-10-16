@@ -1,7 +1,5 @@
-FROM ghcr.io/cyber-dojo-languages/bash:869fdc6
+FROM ghcr.io/cyber-dojo-languages/bash:65313f0
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apk add curl \
- && curl -s https://raw.githubusercontent.com/bash-unit/bash_unit/master/install.sh | bash \
- && apk del curl \
- && mv bash_unit /usr/bin/
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
